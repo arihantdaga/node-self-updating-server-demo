@@ -62,6 +62,10 @@ app.get('/check', async (req,res,next)=>{
      return res.json({status: 1});
 });
 
+app.listen(3002, ()=>{
+  console.log("Server Started");
+});
+
 function main(){
     setInterval(()=>{
         console.log("Version", version);
