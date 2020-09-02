@@ -1,0 +1,11 @@
+{
+    "version": "0.0.1",
+    "auto-updater": {
+        "repo": "/arihantdaga/node-self-updating-server-demo",
+        "branch": "master"
+    },
+    "dependencies": {
+        "auto-updater": "^1.0.2",
+        "express": "^4.17.1"
+    }
+}
